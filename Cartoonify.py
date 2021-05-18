@@ -41,9 +41,10 @@ def save(image, ImagePath):
 
 
 
-uploadBtn = tk.Button(gui, text="Upload an Image",command=upload)
+uploadBtn = tk.Button(gui, text="Add an Image",command=upload)
 uploadBtn.configure(background='black', foreground='white',font=('calibri',12,'bold'))
 uploadBtn.pack(side='top', pady = 50)
+
 
 
 
